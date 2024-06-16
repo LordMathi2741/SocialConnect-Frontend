@@ -1,0 +1,13 @@
+body, html {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.scalable:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+ul {
+    list-style-type: none;
+}
