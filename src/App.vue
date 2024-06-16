@@ -1,12 +1,12 @@
 <script setup>
-
-
-
-import TheHomePage from "@/pages/the-home-page.componet.vue";
+import FooterPage from "@/public/footer-page.component.vue";
+import HomeNavbar from "@/public/home-navbar.component.vue";
 </script>
 
 <template>
-  <the-home-page/>
+  <home-navbar/>
+  <router-view/>
+  <footer-page/>
 </template>
 
 <style scoped>

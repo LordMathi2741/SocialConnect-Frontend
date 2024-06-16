@@ -11,3 +11,8 @@ body, html {
 ul {
     list-style-type: none;
 }
+
+.nav-item {
+    text-decoration: none ;
+    color: white;
+}

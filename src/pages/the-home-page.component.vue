@@ -11,12 +11,10 @@ export default {
 </script>
 
 <template>
-  <home-navbar/>
     <div class="p-8 mx-0 bg-gray-700">
       <home-page-header/>
       <users-list/>
     </div>
-    <footer-page/>
 </template>
 
 <style scoped>
