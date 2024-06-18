@@ -6,6 +6,7 @@ history: createWebHistory(import.meta.env.BASE_URL),
         {path: '/', component: () => import('../pages/the-home-page.component.vue')},
         {path:  '/login-page', component: () => import('../pages/the-login-page.component.vue')},
         {path:  '/profile', component: () => import('../pages/the-user-profile-page.component.vue')},
+        {path:'/publication', component: () => import('../pages/the-publication-post.component.vue')}
     ]
 })
 

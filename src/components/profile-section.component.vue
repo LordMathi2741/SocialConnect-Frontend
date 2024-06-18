@@ -4,14 +4,14 @@ export default {
   name: "profile-section",
   data(){
     return {
-      user: JSON.parse(localStorage.getItem('user'))
+      user: JSON.parse(sessionStorage.getItem('user'))
     }
   }
 }
 </script>
 
 <template>
-   <div class="flex justify-content-center py-8">
+   <div v-if="user" class="flex justify-content-center py-8">
      <pv-card class="px-4 text-left">
        <template #title>My Profile</template>
        <template #content>
@@ -20,6 +20,11 @@ export default {
        </template>
      </pv-card>
    </div>
+  <div v-else class="flex justify-content-center my-8 ">
+     <pv-card class="px-7 p-8 text-left">
+       <template #title> <h3 class="text-red-300"> No user found</h3></template>
+      </pv-card>
+  </div>
 </template>
 
 <style scoped>
