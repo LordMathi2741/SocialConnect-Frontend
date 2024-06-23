@@ -6,7 +6,9 @@ import HomeNavbar from "@/public/home-navbar.component.vue";
 <template>
   <home-navbar/>
   <router-view/>
-  <footer-page/>
+  <div class="modificable">
+    <footer-page/>
+  </div>
 </template>
 
 <style scoped>

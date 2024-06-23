@@ -16,3 +16,10 @@ ul {
     text-decoration: none ;
     color: white;
 }
+
+.modificable{
+    position: absolute;
+    left: 0;
+    top: 85%;
+    right: 0;
+}
